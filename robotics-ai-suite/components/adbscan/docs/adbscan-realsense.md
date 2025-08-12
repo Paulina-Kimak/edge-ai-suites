@@ -37,8 +37,7 @@ point cloud data from 2D LIDAR or Intel® RealSense™ camera
 ## Run the demo with Intel® RealSense™
 
 > ```sh
-> sudo chmod +x /opt/ros/humble/share/adbscan_ros2/scripts/demo_RS.sh
-> /opt/ros/humble/share/adbscan_ros2/scripts/demo_RS.sh
+> ros2 launch adbscan_ros2 play_demo_realsense_launch.py
 > ```
 >
 > Expected result: ROS 2 rviz2 starts, and you will see how ADBSCAN
