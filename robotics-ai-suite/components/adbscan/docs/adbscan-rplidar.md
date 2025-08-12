@@ -37,8 +37,7 @@ point cloud data from 2D LIDAR or Intel® RealSense™ camera
 ## Run the demo with 2D LIDAR
 
 > ```bash
-> sudo chmod +x /opt/ros/humble/share/adbscan_ros2/scripts/demo_lidar.sh
-> /opt/ros/humble/share/adbscan_ros2/scripts/demo_lidar.sh
+> ros2 launch adbscan_ros2 play_demo_lidar_launch.py
 > ```
 
 Expected output: ADBSCAN prints logs of its interpretation of the LIDAR
