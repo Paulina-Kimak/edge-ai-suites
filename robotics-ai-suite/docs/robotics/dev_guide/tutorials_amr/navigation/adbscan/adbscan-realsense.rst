@@ -25,10 +25,10 @@ Run the demo with |realsense| camera
 
    .. code-block::
 
-      ros2 launch adbscan_ros2 play_demo_lidar_launch.py
+      ros2 launch adbscan_ros2 play_demo_realsense_launch.py
 
    Expected result: |ros| rviz2 starts, and you will see how ADBSCAN interprets
-   |realsense| camera data coming from the |ros| bag:
+   |realsense| camera data coming from the |ros| bag (click on the video to play):
 
 
       .. video:: ../../../../videos/adbscan_demo_RS.mp4
