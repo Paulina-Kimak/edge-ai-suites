@@ -42,6 +42,7 @@ To view the messages being published to the `obstacle_array`
 topic, you can use the following command:
 
    .. code-block::
+
       ros2 topic echo /obstacle_array
 
 How to Visualize the Output in RViz
@@ -49,7 +50,8 @@ How to Visualize the Output in RViz
 1. **Launch RViz**:
    - Open a terminal and start RViz by typing:
   
-   .. code-block::
+   .. code-block:: bash
+      
       rviz2
      
 
