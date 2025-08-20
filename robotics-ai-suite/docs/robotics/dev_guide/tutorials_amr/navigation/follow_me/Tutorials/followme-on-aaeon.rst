@@ -26,7 +26,7 @@ Run the following script to launch the Follow-me application tutorial on the Aae
    .. code-block::
 
       source /opt/ros/humble/setup.bash
-      /opt/ros/humble/share/tutorial-follow-me/scripts/follow-me.sh
+      /opt/ros/humble/share/tutorial_follow-me/launch/aaeon_followme_launch.py
 
 After executing the above command, you can observe that the robot detecting the target within a tracking radius (~0.5 - 0.7 m) and subsequently following the moving target person. 
 

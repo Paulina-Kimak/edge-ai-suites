@@ -26,7 +26,7 @@ Run the following script to launch the Follow-me application tutorial on the |ja
 .. code-block:: bash
 
    source /opt/ros/humble/setup.bash
-   /opt/ros/humble/share/tutorial-follow-me/scripts/jackal-follow-me.sh
+   /opt/ros/humble/share/tutorial_follow-me/launch/jackal_followme_launch.py
 
 After starting the script, the robot should begin searching for trackable objects in its initial detection radius (defaulting to around 0.5m), and then following acquired targets as they move from the initial target location. 
 

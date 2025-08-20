@@ -77,7 +77,7 @@ Execute the following script to launch Follow-Me with Gesture on the |clearpath_
 .. code-block:: bash
 
    source /opt/ros/humble/setup.bash
-   /opt/ros/humble/share/tutorial-follow-me-w-gesture/scripts/jackal-follow-me-w-gesture.sh <Camera Serial Number>
+   /opt/ros/humble/share/tutorial_follow-me-w-gesture/launch/jackal_gesture_launch.py <Camera Serial Number>
 
 
 <Camera Serial Number>: Use the serial number returned when using `rs-enumerate-devices`. Note that the output of other programs like `lsusb` might return an incorrect serial number.
@@ -145,4 +145,3 @@ Troubleshooting
 - If the motor controller board does not start, restart the robot.
 
 - For general robot issues, go to: :doc:`../../../../../dev_guide/tutorials_amr/robot-tutorials-troubleshooting`.
-

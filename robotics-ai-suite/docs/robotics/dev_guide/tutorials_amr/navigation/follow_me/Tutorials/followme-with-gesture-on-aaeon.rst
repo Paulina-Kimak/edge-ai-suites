@@ -79,7 +79,7 @@ Execute the following script to launch the Follow-me application tutorial with g
    .. code-block::
 
       source /opt/ros/humble/setup.bash
-      /opt/ros/humble/share/tutorial-follow-me-w-gesture/scripts/aaeon-follow-me-w-gesture.sh <Camera1 Serial number> < Camera2 Serial Number>
+      /opt/ros/humble/share/tutorial_follow-me-w-gesture/launch/aaeon_gesture_launch.py <Camera1 Serial number> < Camera2 Serial Number>
 
 
 Camera1 serial number : Camera which is mounted to the bottom (used for tracking the target).
