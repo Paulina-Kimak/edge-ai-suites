@@ -74,12 +74,13 @@ Serial Number is the one which has to be used while launching the demo in below 
 Run Demo with |realsense| Camera
 ---------------------------------
 
-Execute the following script to launch the Follow-me application tutorial with gesture on the Aaeon robot:
+To launch the Follow-me application tutorial with gesture on the Aaeon robot, use the following ROS 2 launch file.
+
 
    .. code-block::
 
       source /opt/ros/humble/setup.bash
-      /opt/ros/humble/share/tutorial_follow-me-w-gesture/launch/aaeon_gesture_launch.py <Camera1 Serial number> < Camera2 Serial Number>
+      ros2 launch tutorial_follow_me_w_gesture aaeon_gesture_launch.py <Camera1 Serial number> < Camera2 Serial Number>
 
 
 Camera1 serial number : Camera which is mounted to the bottom (used for tracking the target).
@@ -90,7 +91,7 @@ After executing the above command, you can observe that the robot is locating th
 
 .. note::
 
-   There are reconfigurable parameters in `/opt/ros/humble/share/tutorial-follow-me-w-gesture/params` directory for |realsense| camera (`followme_adbscan_RS_params.yaml`). The user can modify parameters depending on the respective robot, sensor configuration and environments (if required) before running the tutorial.
+   There are reconfigurable parameters in `/opt/ros/humble/share/tutorial_follow_me_w_gesture/params` directory for |realsense| camera (`followme_adbscan_RS_params.yaml`). The user can modify parameters depending on the respective robot, sensor configuration and environments (if required) before running the tutorial.
    Find a brief description of the parameters in the following table:
 
    .. list-table:: Configurable Parameters

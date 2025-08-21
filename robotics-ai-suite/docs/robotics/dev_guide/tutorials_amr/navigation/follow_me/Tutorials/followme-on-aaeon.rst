@@ -21,12 +21,12 @@ Install the ``ros-humble-follow-me-tutorial`` |deb_pack| from the |intel| |p_amr
 Run Demo
 ----------------
 
-Run the following script to launch the Follow-me application tutorial on the Aaeon robot.
+To launch the Follow-me application tutorial on the Aaeon robot, use the following ROS 2 launch file.
 
    .. code-block::
 
       source /opt/ros/humble/setup.bash
-      /opt/ros/humble/share/tutorial_follow-me/launch/aaeon_followme_launch.py
+      ros2 launch tutorial_follow_me aaeon_followme_launch.py
 
 After executing the above command, you can observe that the robot detecting the target within a tracking radius (~0.5 - 0.7 m) and subsequently following the moving target person. 
 
