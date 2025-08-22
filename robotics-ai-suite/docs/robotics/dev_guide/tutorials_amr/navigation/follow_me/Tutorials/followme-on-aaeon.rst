@@ -32,7 +32,7 @@ After executing the above command, you can observe that the robot detecting the 
 
 .. note::
 
-   There are reconfigurable parameters in `/opt/ros/humble/share/tutorial_follow-me/params/followme_adbscan_RS_params.yaml`
+   There are reconfigurable parameters in `/opt/ros/humble/share/tutorial_follow_me/params/followme_adbscan_RS_params.yaml`
    file. The user can modify the parameters depending on the respective robot, sensor configuration and environments (if required) before running the tutorial.
    Find a brief description of the parameters in the following table.
 
