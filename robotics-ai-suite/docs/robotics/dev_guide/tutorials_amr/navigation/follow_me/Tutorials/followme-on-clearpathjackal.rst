@@ -23,7 +23,7 @@ Install the ``ros-humble-follow-me-tutorial`` |deb_pack| from the |lp_amr| APT r
 Run Demo
 ----------------
 
-To launch the Follow-me application tutorial on the |jackal robot, use the following ROS 2 launch file.
+To launch the Follow-me application tutorial on the |jackal| robot, use the following ROS 2 launch file.
 
 .. code-block:: bash
 

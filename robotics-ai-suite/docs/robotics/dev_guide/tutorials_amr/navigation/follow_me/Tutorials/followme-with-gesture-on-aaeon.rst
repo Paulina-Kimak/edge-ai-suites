@@ -7,7 +7,7 @@ This tutorial demonstrates the Follow-me algorithm with gesture, where the robot
 The movement of the robot can be controlled by the person's position (relative to the robot) as well as the hand gestures. 
 This tutorial is demonstrated on Aaeon robot using 2 front-mounted |realsense| cameras: camera 1 and camera 2. 
 Camera 1 takes the point cloud data as inputs and passes it through |intel|-patented object detection algorithm, namely Adaptive DBSCAN,
- to detect the position of the target person.
+to detect the position of the target person.
 Camera 2 is positioned at a certain height for capturing the RGB images of the target's hand gestures. 
 This RGB image is passed through a deep learning-based gesture recognition pipeline, 
 called `Mediapipe Hands Framework <https://mediapipe.readthedocs.io/en/latest/solutions/hands.html>`__, to detect the gesture category. 
